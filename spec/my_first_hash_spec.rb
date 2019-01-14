@@ -22,7 +22,7 @@ end
 
 context "Challenge III: Retrieving Data" do 
   describe "#retrieval" do 
-    it "operates on the shipping_manifest hash to return the value of the 'oil paintings' key" do 
+    it "operates on the shipping_manifest hash to return the value of the 'oil paintings' value" do 
       expect(retrieval).to eq(3)
     end
   end
